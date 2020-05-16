@@ -3,8 +3,8 @@ const { IamAuthenticator } = require('ibm-watson/auth');
 
 const languageTranslator = new LanguageTranslatorV3({
   version: '{version}',
-  authenticator: new IamAuthenticator({
-    apikey: '{apikey}',
-  }),
-  url: '{url}',
+  // authenticator: new IamAuthenticator({
+  //   apikey: '{apikey}',
+  // }),
+  // url: '{url}',
 });
