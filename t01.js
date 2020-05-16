@@ -10,8 +10,8 @@ const languageTranslator = new LanguageTranslatorV3({
 });
 
 const translateParams = {
-  text: 'Hello',
-  modelId: 'en-es',
+  text: 'I like cats very much.',
+  modelId: 'en-fr',
 };
 
 languageTranslator.translate(translateParams)
